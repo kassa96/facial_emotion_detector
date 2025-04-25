@@ -52,9 +52,12 @@ pip install -r requirements.txt
 emotion-recognition/   
   ├── data/ # Dossier pour stocker les datasets (train.csv et test_with_emotions.csv) que tu dois télécharger à partir de kaggle pour excuter le notebook en locale   
   ├── face_detection_models/ # Le modéle de reconnaissance des visages doit etre téléchargé à travers le notebook kaggle.
+  ├── exemple_images/ # Dossiers contenant des images à reconnaitre.
+  ├── result_images/ # Dossiers contenant des images aves les émotions détecté par le modéle.
   ├── cnn-emotion-classifier.ipynb # Notebook d’entraînement du modèle de classification des émotions 
   ├── final_emotion_model.keras # Le modele de classification d'émotion que tu dois téléchargé à partir du notebook kaggle https://www.kaggle.com/code/kassadiallo/cnn-emotion-classifier
   ├── live_stream_app.py # Script pour lancer le tracking des visages et reconnaitre les émotions 
+  ├── emotions_dection_image.py # Script pour lancer reconnaitre les émotions sur des photos
   ├── requirements.txt # Dépendances Python   
   └── README.md  
 ```
