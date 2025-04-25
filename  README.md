@@ -71,7 +71,8 @@ Une fois toutes les dépendances installées, vous pouvez exécuter l’applicat
 ### ▶️ Exécution du script de tracking :
 
 ```bash
-python3 live_stream_app.py
+python3 live_stream_app.py # pour lancer la caméra et reconnaitre les emotions
+python3 emotions_dection_image.py # pour reconnaitre des émotions a travers des photo contenus dans le dossier exemple_images
 ```
 Pour arreter le programme cliqué sur l'application puis taper le caractere q.
 
